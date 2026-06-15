@@ -22,8 +22,6 @@ O projeto foi estruturado seguindo a arquitetura em camadas, promovendo organiza
 * Tratamento personalizado de exceções
 * Injeção de dependências com **Spring**
 * Utilização de perfis de execução para diferentes ambientes
-* Configuração para utilização do **PostgreSQL** em ambiente de desenvolvimento
-* Estrutura preparada para deploy em produção
 
 ## Modelo de domínio
 
@@ -49,4 +47,3 @@ O diagrama a seguir ilustra um exemplo de objetos instanciados e suas associaç�
 * Hibernate
 * Maven
 * H2 Database
-* PostgreSQL
