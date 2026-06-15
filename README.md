@@ -1,4 +1,4 @@
-# Projeto com Spring Boot, JPA e Hibernate
+# Projeto API REST com Spring Boot, JPA e Hibernate
 
 Projeto desenvolvido durante o curso **Java COMPLETO: Programação Orientada a Objetos + Projetos**, ministrado por **Nelio Alves**.
 
@@ -27,19 +27,21 @@ O projeto foi estruturado seguindo a arquitetura em camadas, promovendo organiza
 
 ## Modelo de domínio
 
-A API simula um sistema de pedidos de uma workshop, contendo entidades como:
+A **API** simula um sistema de pedidos desenvolvido para fins educacionais, contemplando um conjunto de entidades e relacionamentos frequentemente encontrados em aplicações corporativas.
 
-* User
-* Order
-* Product
-* Category
-* OrderItem
-* Payment
+### Estrutura do domínio
 
-Essas entidades se relacionam para representar cenários reais de persistência e manipulação de dados em aplicações corporativas.
+O diagrama abaixo apresenta o modelo de domínio da aplicação, evidenciando as entidades e os relacionamentos mapeados com **JPA/Hibernate**.
+
+![image alt](https://github.com/Yamilucas/workshop-springboot4-jpa/blob/main/Modelo_dominio_entidades.jpg?raw=true)
+
+### Exemplo de instâncias do domínio
+
+O diagrama a seguir ilustra um exemplo de objetos instanciados e suas associações durante a execução da aplicação, demonstrando como os dados são organizados e persistidos no sistema.
+
+![image alt](https://github.com/Yamilucas/workshop-springboot4-jpa/blob/main/Instancia%C3%A7%C3%A3o_dominios.jpg?raw=true)
 
 ## Tecnologias utilizadas
-
 * Java
 * Spring Boot
 * Spring Web
