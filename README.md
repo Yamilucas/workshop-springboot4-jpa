@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante o curso **Java COMPLETO: Programação Orientada a Objetos + Projetos**, ministrado por **Nelio Alves**.
 
-A aplicação consiste em uma **API REST desenvolvida com Spring Boot**, tendo como objetivo consolidar os principais conceitos relacionados à construção de serviços web em Java, utilizando **Spring Data JPA**, **Hibernate** e bancos de dados relacionais.
+A aplicação consiste em uma **API REST desenvolvida com Spring Boot**, tendo como objetivo consolidar os principais conceitos relacionados à construção de serviços **web** em **Java**, utilizando **Spring Data JPA**, **Hibernate**, **Postman** e bancos de dados relacionais.
 
 O projeto foi estruturado seguindo a arquitetura em camadas, promovendo organização, desacoplamento e facilidade de manutenção do código. Foram implementadas as camadas de:
 
@@ -19,6 +19,7 @@ O projeto foi estruturado seguindo a arquitetura em camadas, promovendo organiza
 * Configuração de banco de dados em memória utilizando **H2** para testes
 * Povoamento automático do banco de dados
 * Operações **CRUD**
+* Validação dos **endpoints** e operações **CRUD** utilizando o **Postman**
 * Tratamento personalizado de exceções
 * Injeção de dependências com **Spring**
 * Utilização de perfis de execução para diferentes ambientes
@@ -47,3 +48,4 @@ O diagrama a seguir ilustra um exemplo de objetos instanciados e suas associaç�
 * Hibernate
 * Maven
 * H2 Database
+* Postman
